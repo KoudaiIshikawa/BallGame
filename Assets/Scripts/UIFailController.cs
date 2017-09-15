@@ -1,0 +1,1 @@
+﻿using System.Collections; using UnityEngine; using UnityEngine.UI;  public class UIFailController : MonoBehaviour  { 	public Text GameFailedLabel;  	private void Start ()  	{ 		// 開始時に表示を消す 		GameFailedLabel.gameObject.SetActive(false); 	}  	public void ShowGameFailedLabel() 	{ 		// 開始時に表示する 		GameFailedLabel.gameObject.SetActive(true);	  	} } 
